@@ -12,7 +12,7 @@ datasource db {
 
 model Student {
   id   Int    @id @default(autoincrement())
-  name String
+  name String @unique
 
   @@map("students")
 }
