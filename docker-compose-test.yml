@@ -20,3 +20,6 @@ services:
       - db_sorteador
     env_file:
       - back-end/.env.test
+
+volumes:
+  sorteador_db:
